@@ -16,7 +16,7 @@
 
 body {
 
-	font-family: 'robotoregular';
+	font-family: 'robotoregular', Arial, sans-relief;
 	min-width: 250px;
 	font-size : 16px;
 }
@@ -98,20 +98,54 @@ h1 {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	
 }
 
 .frame {
 
 	border: 1px solid #F2F2F2 ;
 	background-color: white;
-	width: 85%;
+	width: 90%;
 	height: 300px;
 	margin-bottom: 20px;
+	border-radius: 25px;
+	margin-left: 15px;
+	box-shadow: 2px 2px 4px grey;
 }
 
 .picture img {
 
 	width: 100%;
 	height: 200px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	object-fit: cover;
+}
+
+h3 {
+
+	padding-left: 15px;
+}
+
+.district {
+
+	padding-left: 15px;
+}
+
+
+/* <<< FOOTER >>> */
+
+
+.footer-index {
+
+	border: 2px solid grey;
+	background-color: grey;
+	color: white;
+	width: 100%;
+}
+
+.credit-footer {
+
+	list-style-type: none;
+	padding-bottom: 10px;
 }
