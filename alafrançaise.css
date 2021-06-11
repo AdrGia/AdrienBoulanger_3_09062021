@@ -37,9 +37,22 @@ h1 {
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	width: 100%;
-	padding-left: 10px;
+	padding-left: 15px;
+}
 
+.fa-heart {
 
+	padding-left: 200px;
+	cursor: pointer;
+}
+
+.frame-french {
+
+	border: 1px solid white;
+	background-color: white;
+	width: 97%;
+	border-radius: 25px;
+	margin-bottom: 10px;
 }
 
 
