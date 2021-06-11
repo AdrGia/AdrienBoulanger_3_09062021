@@ -82,16 +82,10 @@ h1 {
 	box-shadow: 2px 2px 4px #F4F4F4;
 }
 
-.fuction:hover {
-
-	background-color: #9356DC;
-}
-
 .number {
 
 	padding-right: 50px;
-	border: 1px solid #9356DC;
-	border-radius: 50%;
+	
 
 }
 
