@@ -20,10 +20,17 @@ body {
 	min-width: 250px;
 	font-size : 16px;
 }
+.logo img {
 
-h1 {
+	width: 65%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
 
-	text-align: center;
+.logo {
+
+	display: flex;
+	justify-content: center;
 }
 
 .belleville {
@@ -36,6 +43,12 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.fa-map-marker-alt {
+
+	padding-right: 10px;
+}
+
 
 .reserve {
 
@@ -82,12 +95,43 @@ h1 {
 	box-shadow: 2px 2px 4px #F4F4F4;
 }
 
-.number {
 
-	padding-right: 50px;
+.fa-mobile-alt {
+
+	padding-left: 20px;
+	padding-right: 25px;
+	cursor: pointer;
+}
+
+.fa-list-ul {
+
+	padding-left: 20px;
+	padding-right: 25px;
+	cursor: pointer;
+}
+
+.fa-store {
+
+	padding-left: 20px;
+	padding-right: 25px;
+	cursor: pointer;
 
 }
 
+.fa-mobile-alt:hover {
+
+	color: #9356DC;
+}
+
+.fa-list-ul:hover {
+
+	color: #9356DC;
+}
+
+.fa-store:hover {
+
+	color: #9356DC;
+}
 
 
 /* <<< SECTION >>> */
@@ -163,4 +207,14 @@ li {
 .icone-footer {
 
 	padding-left: 10px;
+}
+
+.fa-utensils {
+
+	padding-right: 10px;
+}
+
+.fa-hands-helping {
+
+	padding-right: 10px;
 }
