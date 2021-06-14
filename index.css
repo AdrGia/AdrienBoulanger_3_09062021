@@ -36,7 +36,7 @@ body {
 .belleville {
 
 	border-top: 1px solid grey;
-	background-color: #afaaaa;
+	background-color: #e0e0e0;
 	width: 100%;
 	height: 30px;
 	text-align: center;
@@ -71,6 +71,8 @@ body {
 	border-radius: 25px;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	box-shadow: 3px 3px 10px grey;
+
 }
 
 
@@ -92,7 +94,7 @@ body {
 	padding-bottom: 15px;
 	padding-top: 15px;
 	border-radius: 25px;
-	box-shadow: 2px 2px 4px #F4F4F4;
+	box-shadow: 3px 3px 10px grey;
 }
 
 
@@ -178,7 +180,16 @@ h3 {
 .district {
 
 	padding-left: 15px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: -10px;
 }
+.fa-heart {
+
+	padding-right: 25px;
+	cursor: pointer;
+}
+
 
 
 /* <<< FOOTER >>> */
@@ -202,6 +213,7 @@ li {
 
 	padding-bottom: 10px;
 	padding-top: 10px;
+	cursor: pointer;
 }
 
 .icone-footer {
