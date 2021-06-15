@@ -26,14 +26,20 @@ body {
 	width: 65%;
 	margin-bottom: 30px;
 	margin-top: 20px;
+	margin-left: 60px;
 }
 
-.logo {
+.arrow  {
 
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
 }
 
+.fla-arrow-left {
+
+	width: 10px;
+}
 
 /* <<< SECTION >>> */
 
