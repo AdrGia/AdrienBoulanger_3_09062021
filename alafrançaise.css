@@ -36,11 +36,6 @@ body {
 	margin-left: 10px;
 }
 
-.fla-arrow-left {
-
-	width: 10px;
-}
-
 /* <<< SECTION >>> */
 
 
@@ -56,8 +51,10 @@ body {
 
 .fa-heart {
 
-	padding-left: 200px;
+	display: flex;
+	align-items: flex-end;
 	cursor: pointer;
+	margin-left: 150px;
 }
 
 .frame-french {
