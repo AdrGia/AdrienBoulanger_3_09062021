@@ -154,7 +154,7 @@ body {
 
 	border: 1px solid #F2F2F2 ;
 	background-color: white;
-	width: 90%;
+	width: 95%;
 	height: 300px;
 	margin-bottom: 20px;
 	border-radius: 25px;
@@ -246,13 +246,35 @@ h4 {
 
 	display: flex;
 	justify-content: center;
-	padding-left: auto;
+	padding-left: 0 auto;
+	
 }
 
 li {
 
 	display: flex;
 	justify-content: center;
+	
+
+}
+
+.button-operation {
+
+	width: 65%;
+	padding-left: 20%;
+
+}
+
+.fuction {
+
+	margin-bottom: 30px;
+}
+
+.frame {
+
+	margin-left: 10px;
+	width: 97%;
+
 }
 
 }
