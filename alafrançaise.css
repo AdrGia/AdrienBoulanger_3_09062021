@@ -12,12 +12,15 @@
 }
 
 body {
-
 	font-family: 'robotoregular', Arial, sans-relief;
-	min-width: 250px;
+	min-width: 300px;
 	font-size : 16px;
 }
 
+.content {
+
+	min-width: 350px;
+}
 
 /* <<< HEADER >>> */
 
@@ -54,15 +57,17 @@ body {
 	display: flex;
 	align-items: flex-end;
 	cursor: pointer;
-	margin-left: 150px;
+	padding-left: 40%;
 }
+
+
 
 .frame-french {
 
 	border: 1px solid white;
 	background-color: white;
 	width: 97%;
-	height: 80px;
+	height: 90px;
 	border-radius: 25px;
 	margin-bottom: 10px;
 	margin-top: 10px;
