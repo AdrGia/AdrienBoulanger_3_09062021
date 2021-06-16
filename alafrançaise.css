@@ -57,14 +57,14 @@ body {
 	display: flex;
 	align-items: flex-end;
 	cursor: pointer;
-	padding-left: 40%;
+	padding-left: 55%;
 }
 
-@media screen and (max-width: 345px) {
+@media screen and (max-width: 445px) {
 
 .fa-heart {
 
-	padding-left: 85px;
+	padding-left: 35%;
 }
 
 }
