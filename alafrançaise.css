@@ -13,13 +13,13 @@
 
 body {
 	font-family: 'robotoregular', Arial, sans-relief;
-	min-width: 300px;
+	min-width: 285px;
 	font-size : 16px;
 }
 
 .content {
 
-	min-width: 350px;
+	min-width: 310px;
 }
 
 /* <<< HEADER >>> */
@@ -60,7 +60,14 @@ body {
 	padding-left: 40%;
 }
 
+@media screen and (max-width: 345px) {
 
+.fa-heart {
+
+	padding-left: 85px;
+}
+
+}
 
 .frame-french {
 
