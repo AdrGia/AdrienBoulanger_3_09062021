@@ -18,7 +18,7 @@ body {
 
 	font-family: 'robotoregular', Arial, sans-relief;
 	min-width: 250px;
-	font-size : 16px;
+	font-size : 18px;
 }
 .logo img {
 
@@ -231,10 +231,28 @@ li {
 	padding-right: 10px;
 }
 
-.footer-logo {
+h4 {
 
-	width: 150px;
 	padding-top: 30px;
 	padding-left: 40px;
 	
+}
+
+
+
+@media screen and (min-width: 540px){
+
+h4 {
+
+	display: flex;
+	justify-content: center;
+	padding-left: auto;
+}
+
+li {
+
+	display: flex;
+	justify-content: center;
+}
+
 }
