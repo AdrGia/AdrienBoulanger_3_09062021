@@ -41,6 +41,10 @@ body {
 
 /* <<< SECTION >>> */
 
+.picture-restaurant img {
+
+	background-image: url(images/restaurants/rouge.jpg);
+}
 
 .section-block {
 
