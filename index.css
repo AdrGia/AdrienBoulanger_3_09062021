@@ -252,7 +252,7 @@ h4 {
 	
 }
 
-li {
+footer li {
 
 	display: flex;
 	justify-content: center;
@@ -328,9 +328,43 @@ nav {
 	margin-top: 20px;
 }
 
-.button-operation{
+.button-operation {
 
-	width: 40%;
+	width: 60%;
+}
+
+nav ul {
+
+	display: flex;
+	
+}
+
+nav li {
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+.fuction {
+
+	display: flex;
+	justify-content: space-between;	
+
+}
+
+.frame-group {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.frame {
+
+	width: 470px;
+	height: 300px;
 }
 
 }
