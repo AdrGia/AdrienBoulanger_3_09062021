@@ -138,6 +138,7 @@ body {
 }
 
 
+
 /* <<< SECTION >>> */
 
 
@@ -330,27 +331,22 @@ nav {
 
 .button-operation {
 
-	width: 60%;
+	width: 90%;
+	padding-left: 0%;
+
+
 }
 
 nav ul {
 
 	display: flex;
-	
-}
-
-nav li {
-
-	display: flex;
-	flex-direction: row;
-
+	justify-content: space-around;
 }
 
 .fuction {
 
-	display: flex;
-	justify-content: space-between;	
-
+	margin-top: 45px;
+	padding-right: 10px;
 }
 
 .frame-group {
