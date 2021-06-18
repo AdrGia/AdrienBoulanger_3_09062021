@@ -41,8 +41,15 @@ body {
 
 /* <<< SECTION >>> */
 
-.picture-restaurant img {
+.restaurant-picture {
 
+
+	height: 320px;
+	width: 100%;
+	padding-left: 2.5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	background-image: url(images/restaurants/rouge.jpg);
 }
 
@@ -54,6 +61,8 @@ body {
 	border-top-left-radius: 25px;
 	width: 97%;
 	padding-left: 15px;
+	position: relative;
+	top: -25px;
 }
 
 .fa-heart {
