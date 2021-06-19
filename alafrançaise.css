@@ -45,7 +45,7 @@ body {
 
 
 	height: 320px;
-	width: 100%;
+	width: 101%;
 	padding-left: 2.5px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
 	background-color: #F2F2F2;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
-	width: 97%;
+	width: 99%;
 	padding-left: 15px;
 	position: relative;
 	top: -25px;
@@ -157,7 +157,8 @@ h3 {
 	border: 2px solid #5b5b5b;
 	background-color: #5b5b5b;
 	color: white;
-	width: 100%;
+	width: 100.5%;
+	margin-top: -25px;
 
 }
 
@@ -183,10 +184,60 @@ li {
 	padding-right: 10px;
 }
 
-.footer-logo {
+h4 {
 
-	width: 150px;
 	padding-top: 30px;
 	padding-left: 40px;
+	
+}
+
+@media screen and (min-width: 650px) {
+
+footer li {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+h4 {
+
+	display: flex;
+	justify-content: center;
+	padding-left: 0 auto;
+	
+}
+
+.fa-heart {
+
+	padding-left: 65%;
+}
+
+h2 {
+
+	text-align: center;
+
+}
+
+.button-order {
+
+	text-align: center;
+	width: 80%;
+	margin-left: 80px;
+	
+}
+
+}
+
+@media screen and (min-width: 800px){
+
+	.button-order {
+
+		width: 85%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+
 	
 }
