@@ -18,7 +18,7 @@ body {
 
 	font-family: 'robotoregular', Arial, sans-relief;
 	min-width: 250px;
-	font-size : 16px;
+	font-size : 18px;
 }
 .logo img {
 
@@ -64,13 +64,15 @@ body {
 
 	border: 2px solid #FF79DA;
 	background-color: #FF79DA;
+	max-width: 100%;
+	height: 30px;
 	color: white;
 	cursor: pointer;
 	margin-right: 70px;
 	margin-left: 70px;
 	border-radius: 25px;
 	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-top: 15px;
 	box-shadow: 3px 3px 10px grey;
 
 }
@@ -136,6 +138,7 @@ body {
 }
 
 
+
 /* <<< SECTION >>> */
 
 
@@ -154,7 +157,7 @@ body {
 
 	border: 1px solid #F2F2F2 ;
 	background-color: white;
-	width: 90%;
+	width: 95%;
 	height: 300px;
 	margin-bottom: 20px;
 	border-radius: 25px;
@@ -231,10 +234,133 @@ li {
 	padding-right: 10px;
 }
 
-.footer-logo {
+h4 {
 
-	width: 150px;
 	padding-top: 30px;
 	padding-left: 40px;
 	
+}
+
+
+
+@media screen and (min-width: 540px){
+
+h4 {
+
+	display: flex;
+	justify-content: center;
+	padding-left: 0 auto;
+	
+}
+
+footer li {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.button-operation {
+
+	width: 65%;
+	padding-left: 20%;
+
+}
+
+.fuction {
+
+	margin-bottom: 30px;
+}
+
+.frame {
+
+	margin-left: 10px;
+	width: 97%;
+
+}
+
+}
+
+@media screen and (min-width: 900px){
+
+
+
+.logo img {
+
+	width: 20%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.logo {
+
+	display: flex;
+	justify-content: center;
+}
+
+.reserve {
+
+	height: 250px;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.belleville {
+
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	font-size: 22px;
+}
+
+.button-reserve {
+
+	justify-content: center;
+	width: 250px;
+	margin: 0 auto;
+
+}
+
+nav {
+
+	display: flex;
+	margin-top: 20px;
+}
+
+.button-operation {
+
+	width: 90%;
+	padding-left: 0%;
+
+
+}
+
+nav ul {
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.fuction {
+
+	margin-top: 45px;
+	padding-right: 10px;
+}
+
+.frame-group {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.frame {
+
+	width: 470px;
+	height: 300px;
+}
+
 }
