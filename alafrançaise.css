@@ -272,6 +272,8 @@ h2 {
 
 		display: flex;
 		justify-content: center;
+		width: 25%;
+		margin-left: 38%;
 	}
 
 	.footer-index {
