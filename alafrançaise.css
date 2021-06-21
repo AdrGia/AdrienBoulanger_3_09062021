@@ -239,5 +239,71 @@ h2 {
 
 @media screen and (min-width: 900px) {
 
+	.logo img {
+
+		width: 75%;
+
+	}
+
+	.arrow {
+
+		justify-content: space-between;
+	}
+
+	.frame-block {
+
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.frame-french {
+
+		width: 100%;
+		height: 100px;
+		margin-bottom: 30px;
+	}
+
+	.restaurant-picture {
+
+		width: 100%;
+	}
 	
+	.button-order {
+
+		display: flex;
+		justify-content: center;
+		width: 25%;
+		margin-left: 38%;
+	}
+
+	.footer-index {
+
+		width: 100%;
+	}
+
+	h2 {
+
+		text-align: left;
+	}
+
+	.fa-heart {
+
+		padding-left: 77%;
+	}	
+}
+
+@media screen and (min-width: 1160px) {
+
+	.fa-heart {
+
+		padding-left: 80%;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+
+	.fa-heart {
+
+		padding-left: 85%;
+	}
 }
