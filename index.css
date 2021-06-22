@@ -173,6 +173,25 @@ body {
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	object-fit: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.green-frame {
+
+	border: 1px solid #99E2D0;
+	width: 60px;
+	height: 20px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: #99E2D0;
+	color: green;
+	font-size: 12px;
+	position: absolute;
+	z-index: 2;
+	left: 600px;
+
+
 }
 
 h3 {
