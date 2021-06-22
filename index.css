@@ -97,6 +97,20 @@ body {
 	padding-top: 15px;
 	border-radius: 25px;
 	box-shadow: 3px 3px 10px grey;
+	position: relative;
+}
+
+.number {
+
+	border: 1px solid #9356DC;
+	border-radius: 50%;
+	text-align: center;
+	padding: 0.5rem;
+	background-color: #9356DC;
+	color: white;
+	font-size: 9px;
+	position: absolute;
+	margin-left: -20px;
 }
 
 
