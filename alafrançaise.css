@@ -270,10 +270,12 @@ h2 {
 	
 	.button-order {
 
-		display: flex;
-		justify-content: center;
-		width: 25%;
-		margin-left: 38%;
+	justify-content: center;
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
 	}
 
 	.footer-index {
