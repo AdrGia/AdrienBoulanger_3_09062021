@@ -73,6 +73,9 @@ body {
 	padding-left: 55%;
 }
 
+
+}
+
 @media screen and (max-width: 445px) {
 
 .fa-heart {
@@ -86,12 +89,19 @@ body {
 
 	border: 1px solid white;
 	background-color: white;
-	width: 97%;
+	width: 95%;
 	height: 90px;
 	border-radius: 25px;
 	margin-bottom: 15px;
 	margin-top: 10px;
 	box-shadow: 2px 2px 4px grey;
+	transition-property: transform;
+	transition-duration: 600ms;
+}
+
+.frame-french:hover {
+
+	transform: scale(1.03);
 }
 
 .button-order {
@@ -99,8 +109,8 @@ body {
 	margin-top: 45px;
 	margin-bottom: 45px;
 	text-align: center;
-	border: 2px solid #FF79DA;
-	background-color: #FF79DA;
+	border: 2px solid: #CE69DB;
+	background-color: #CE69DB;
 	color: white;
 	width: 60%;
 	border-radius: 25px;
@@ -109,7 +119,17 @@ body {
 	padding-bottom: 15px;
 	cursor: pointer;
 	box-shadow: 3px 3px 6px #afaaaa;
+	transition-property: transform;
+	transition-duration: 600ms;
 
+}
+
+.button-order:hover {
+
+	transform: scale(1.15);
+	background-color: rgb(216,108,219);
+	border-color: rgb(216,108,219);
+	box-shadow: 8px 8px 18px #afaaaa;
 }
 
 

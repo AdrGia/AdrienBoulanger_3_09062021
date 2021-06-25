@@ -62,18 +62,31 @@ body {
 
 .button-reserve {
 
-	border: 2px solid #FF79DA;
-	background-color: #FF79DA;
+	border: 2px solid #CE69DB;
+	background-color: #CE69DB;
 	max-width: 100%;
 	height: 30px;
 	color: white;
 	cursor: pointer;
 	margin-right: 70px;
 	margin-left: 70px;
+	margin-top: 40px;
 	border-radius: 25px;
 	padding-bottom: 10px;
 	padding-top: 15px;
 	box-shadow: 3px 3px 10px grey;
+	transition-property: transform;
+	transition-duration: 600ms;
+
+}
+
+.button-reserve:hover {
+
+	transform: scale(1.15);
+	background-color: rgb(216,108,219);
+	border-color: rgb(216,108,219);
+	box-shadow: 6px 6px 25px grey;
+
 
 }
 
@@ -98,6 +111,12 @@ body {
 	border-radius: 25px;
 	box-shadow: 3px 3px 10px grey;
 	position: relative;
+}
+
+.fuction:hover {
+
+	background-color: rgb(147,86,220, 0.2);
+	border-color: rgb(147,86,220, 0.2);
 }
 
 .number {
@@ -171,12 +190,20 @@ body {
 
 	border: 1px solid #F2F2F2 ;
 	background-color: white;
-	width: 95%;
+	width: 90%;
 	height: 300px;
 	margin-bottom: 20px;
 	border-radius: 25px;
-	margin-left: 15px;
+	margin-left: 20px;
 	box-shadow: 2px 2px 4px grey;
+	transition-property: transform;
+	transition-duration: 600ms;
+	cursor: pointer;
+}
+
+.frame:hover {
+
+	transform: scale(1.03);
 }
 
 
@@ -224,6 +251,11 @@ h3 {
 
 	padding-right: 25px;
 	cursor: pointer;
+}
+
+.fa-heart:hover {
+
+
 }
 
 
@@ -406,6 +438,12 @@ nav ul {
 
 	width: 470px;
 	height: 300px;
+}
+
+.button-reserve {
+
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 }
