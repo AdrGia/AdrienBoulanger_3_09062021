@@ -97,6 +97,12 @@ body {
 	box-shadow: 2px 2px 4px grey;
 	transition-property: transform;
 	transition-duration: 600ms;
+	animation: slideDown 5s;
+}
+
+h3 {
+
+	animation: slideDown 5s;
 }
 
 .frame-french:hover {
@@ -129,7 +135,7 @@ body {
 	transform: scale(1.15);
 	background-color: rgb(216,108,219);
 	border-color: rgb(216,108,219);
-	box-shadow: 8px 8px 18px #afaaaa;
+	
 }
 
 
@@ -159,7 +165,9 @@ body {
 
 h2 {
 
+	font-family: 'Shrikhand', cursive;
 	padding-bottom: 20px;
+	font-size: 30px;
 }
 
 h3 {
@@ -225,6 +233,8 @@ h4 {
 	display: flex;
 	justify-content: center;
 	padding-left: 0 auto;
+	font-family: 'Shrikhand', cursive;
+	font-size: 25px;
 	
 }
 
@@ -327,5 +337,20 @@ h2 {
 	.fa-heart {
 
 		padding-left: 85%;
+	}
+}
+
+@keyframes slideDown {
+
+	0% {
+
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+
+	100% {
+
+		transform: translateY(0);
+		opacity: 1;
 	}
 }

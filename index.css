@@ -85,9 +85,6 @@ body {
 	transform: scale(1.15);
 	background-color: rgb(216,108,219);
 	border-color: rgb(216,108,219);
-	box-shadow: 6px 6px 25px grey;
-
-
 }
 
 
@@ -124,7 +121,8 @@ body {
 	border: 1px solid #9356DC;
 	border-radius: 50%;
 	text-align: center;
-	padding: 0.5rem;
+	margin-top: -3px;
+	padding: 0.6rem;
 	background-color: #9356DC;
 	color: white;
 	font-size: 9px;
@@ -199,6 +197,8 @@ body {
 	transition-property: transform;
 	transition-duration: 600ms;
 	cursor: pointer;
+	animation: slideDown 2s;
+	
 }
 
 .frame:hover {
@@ -247,18 +247,17 @@ h3 {
 	justify-content: space-between;
 	margin-top: -10px;
 }
-.fa-heart {
+
+.icone-frame {
 
 	padding-right: 25px;
 	cursor: pointer;
 }
+#heart {
 
-.fa-heart:hover {
-
-
+	color: white;
+	border-color: black;
 }
-
-
 
 /* <<< FOOTER >>> */
 
@@ -301,6 +300,8 @@ li {
 
 h4 {
 
+	font-family: 'Shrikhand', cursive;
+	font-size: 25px;
 	padding-top: 30px;
 	padding-left: 40px;
 	
@@ -446,4 +447,18 @@ nav ul {
 	margin-bottom: 20px;
 }
 
+}
+@keyframes slideDown {
+
+	0% {
+
+		transform: translateY(-200px);
+		opacity: 0;
+	}
+
+	100% {
+
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
