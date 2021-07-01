@@ -19,7 +19,7 @@ body {
 
 .content {
 
-	min-width: 310px;
+	min-width: 300px;
 }
 
 /* <<< HEADER >>> */
@@ -70,20 +70,9 @@ body {
 	display: flex;
 	align-items: flex-end;
 	cursor: pointer;
-	padding-left: 55%;
+	padding-left: 15%;
 }
 
-
-}
-
-@media screen and (max-width: 445px) {
-
-.fa-heart {
-
-	padding-left: 35%;
-}
-
-}
 
 .frame-french {
 
@@ -97,6 +86,7 @@ body {
 	box-shadow: 2px 2px 4px grey;
 	transition-property: transform;
 	transition-duration: 600ms;
+	cursor: pointer;
 	animation: slideDown 5s;
 }
 
@@ -115,8 +105,9 @@ h3 {
 	margin-top: 45px;
 	margin-bottom: 45px;
 	text-align: center;
-	border: 2px solid: #CE69DB;
-	background-color: #CE69DB;
+	background: rgb(147,86,220);
+	background: linear-gradient(150deg, rgba(147,86,220,1) 0%, rgba(154,88,220,1) 25%, 
+	rgba(164,92,220,1) 50%, rgba(205,107,220,1) 75%, rgba(255,125,219,1) 100%);
 	color: white;
 	width: 60%;
 	border-radius: 25px;
@@ -133,8 +124,9 @@ h3 {
 .button-order:hover {
 
 	transform: scale(1.15);
-	background-color: rgb(216,108,219);
-	border-color: rgb(216,108,219);
+	background: rgb(255,125,219);
+	background: linear-gradient(150deg, rgba(255,125,219,1) 0%, rgba(205,107,220,1) 69%, 
+	rgba(164,92,220,1) 80%, rgba(154,88,220,1) 91%, rgba(147,86,220,1) 100%);
 	
 }
 
@@ -219,6 +211,16 @@ h4 {
 	
 }
 
+
+@media screen and (min-width: 435px) {
+
+.fa-heart {
+
+	padding-left: 35%;
+}
+
+}
+
 @media screen and (min-width: 650px) {
 
 footer li {
@@ -240,20 +242,17 @@ h4 {
 
 .fa-heart {
 
-	padding-left: 65%;
+	padding-left: 55%;
 }
 
-h2 {
-
-	text-align: center;
-
-}
 
 .button-order {
 
-	text-align: center;
-	width: 80%;
-	margin-left: 80px;
+	justify-content: center;
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	
 }
 
@@ -261,11 +260,12 @@ h2 {
 
 @media screen and (min-width: 800px){
 
-	.button-order {
+	.fa-heart {
 
-		width: 85%;
-	}
+		padding-left: 65%;
+	} 
 }
+
 
 @media screen and (min-width: 900px) {
 
@@ -320,7 +320,7 @@ h2 {
 
 	.fa-heart {
 
-		padding-left: 77%;
+		padding-left: 65%;
 	}	
 }
 
@@ -328,7 +328,7 @@ h2 {
 
 	.fa-heart {
 
-		padding-left: 80%;
+		padding-left: 75%;
 	}
 }
 
@@ -336,7 +336,7 @@ h2 {
 
 	.fa-heart {
 
-		padding-left: 85%;
+		padding-left: 80%;
 	}
 }
 
