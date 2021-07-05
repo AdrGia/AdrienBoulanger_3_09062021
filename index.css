@@ -81,7 +81,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    animation: loader 2s ease-out forwards;
+    animation: loader 3s ease-out forwards;
     
  }  
 
@@ -89,20 +89,37 @@ body {
 
  	from {
 
- 		opacity: 1
+ 		opacity: 1;
 
  	}
 
  	to {
 
  		opacity: 0;
+ 		pointer-events: none;
+
  	}
  }
 
 content {
 
-	animation: loader 2.5s ease-out reverse;
+	animation: index 3s ease-in;
+	
 
+}
+
+@keyframes index {
+
+	from {
+
+		opacity: 0;
+
+	}
+
+	to {
+
+		opacity: 1;
+	}
 }
 
 
@@ -335,6 +352,43 @@ h1 {
 
 }
 
+.icone {
+
+	position: relative;
+	margin-right: 25px;
+	overflow: visible;
+}
+
+#heart-main {
+
+	cursor: pointer;
+	position: absolute;
+	
+	
+}
+
+#heart-main:hover {
+
+	display: none;
+}
+
+#heart-background {
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	color: transparent;
+
+	
+}
+
+#heart-background:hover {
+
+	color: purple;
+}
+
 h3 {
 
 	padding-left: 15px;
@@ -346,18 +400,6 @@ h3 {
 	display: flex;
 	justify-content: space-between;
 	margin-top: -10px;
-}
-
-
-.fa-heart {
-
-	margin-right: 25px;
-	cursor: pointer;
-}
-
-.fa-heart:hover {
-
-	stroke: none;
 }
 
 
