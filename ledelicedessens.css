@@ -37,13 +37,7 @@ body {
 	display: flex;
 	align-items: center;
 	margin-left: 10px;
-	cursor: pointer;
 }
-
-.arrow-link {
-	text-decoration: none;
-}
-
 
 /* <<< SECTION >>> */
 
@@ -56,7 +50,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url(images/restaurants/rouge.jpg);
+	background-image: url(images/restaurants/folie.jpg);
 }
 
 .section-block {
@@ -84,64 +78,15 @@ body {
 
 	border: 1px solid white;
 	background-color: white;
-	width: 85%;
+	width: 95%;
 	height: 90px;
 	border-radius: 25px;
 	margin-bottom: 15px;
-	margin-left: 15px;
 	margin-top: 10px;
 	box-shadow: 2px 2px 4px grey;
 	cursor: pointer;
 	animation: slideDown 5s;
-	opacity: 1;
-	position: relative;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
 }
-
-.frame-green {
-
-	background-color: #99E2D0;
-	width: 85%;
-	height: 90px;
-	border-radius: 25px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	margin-left: 25px;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	cursor: pointer;
-	position: absolute;
-	opacity: 0
-	
-}
-
-.price {
-
-	font-weight: bold;
-	padding-right: 20px;
-	cursor: pointer;
-
-}
-
-.price:hover {
-
-	transform: translate(-45px);
-}
-
-
-.fa-check-circle {
-
-	font-size: 25px;
-	color: white;
-	margin-right: 20px;
-	
-}
-
 
 
 h3 {
@@ -198,6 +143,11 @@ h3 {
 
 }
 
+.price {
+
+	font-weight: bold;
+	padding-right: 20px;
+}
 
 h2 {
 
@@ -378,6 +328,9 @@ h4 {
 		width: 110%;
 	}
 }
+
+
+
 
 @media screen and (min-width: 1200px) {
 
