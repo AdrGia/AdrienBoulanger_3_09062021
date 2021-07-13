@@ -352,42 +352,21 @@ h1 {
 
 }
 
-.icone {
+.fa-heart {
 
-	position: relative;
-	margin-right: 25px;
-	overflow: visible;
-}
-
-#heart-main {
-
+	margin-right: 35px;
 	cursor: pointer;
-	position: absolute;
 	
+
 }
 
-#heart-main:hover {
+.fa-heart:hover {
 
-	display: none;
-	background-color: transparent;
+	background: -webkit-linear-gradient(0deg, rgba(187,100,220,1) 5%, rgba(147,86,220,1) 32%, rgba(195,103,220,1) 67%, rgba(255,125,219,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
-#heart-background {
-
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	color: transparent;	
-}
-
-#heart-background:hover {
-
-	background-color: pink;
-
-	
-}
 
 h3 {
 

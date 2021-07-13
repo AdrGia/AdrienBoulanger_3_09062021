@@ -38,6 +38,7 @@ body {
 	align-items: center;
 	margin-left: 10px;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 
@@ -103,16 +104,17 @@ body {
 
 	background-color: #99E2D0;
 	width: 85px;
-	height: 95px;
+	height: 102px;
 	border-radius: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: -67px;
-	margin-right: -100px;
-	opacity: 0 ;
+	margin-top: -45px;
+	margin-left: 380px;
+	opacity: 0;
 	transition-duration: 2.5s;
 	position: absolute;
+	cursor: pointer;
 	
 }
 
@@ -150,7 +152,7 @@ body {
 	font-size: 25px;
 	color: white;
 	margin-right: 20px;
-	animation: icone-spin 6.5s linear alternate;
+	animation: icone-spin 5s linear alternate;
 }
 
 h3 {
