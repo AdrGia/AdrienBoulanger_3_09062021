@@ -83,7 +83,7 @@ body {
 
 	border: 1px solid white;
 	background-color: white;
-	width: 85%;
+	width: 90%;
 	height: 90px;
 	border-radius: 25px;
 	margin-bottom: 15px;
@@ -107,11 +107,9 @@ body {
 	height: 102px;
 	border-radius: 25px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	margin-top: -45px;
-	margin-left: 380px;
-	opacity: 0;
 	transition-duration: 2.5s;
 	position: absolute;
 	cursor: pointer;
@@ -338,12 +336,12 @@ h4 {
 	.frame-block {
 
 		display: flex;
-		justify-content: space-around;
+		flex-direction: column;
 	}
 
 	.frame-french {
 
-		width: 102%;
+		width: 75%;
 		height: 100px;
 		margin-bottom: 30px;
 		margin-right: 20px;
@@ -386,15 +384,23 @@ h4 {
 
 	.frame-french {
 
-		width: 110%;
+		width: 80%;
 	}
 }
 
 @media screen and (min-width: 1200px) {
 
+
+	.frame-block {
+
+		flex-direction: row;
+		justify-content: space-around;
+		margin-left: -50px;
+	}
+
 	.frame-french {
 
-		width: 120%;
+		width: 100%;
 	}
 
 	.fa-heart {
@@ -408,6 +414,34 @@ h4 {
 	.fa-heart {
 
 		padding-left: 80%;
+	}
+		
+	.frame-french {
+
+		width: 110%;
+	}
+
+	.frame-block {
+
+		margin-left: -100px;
+	}
+}
+
+@media screen and (min-width: 1650px) {
+
+	.fa-heart {
+
+		padding-left: 80%;
+	}
+
+	.frame-block {
+
+		margin-left: -150px
+	}
+
+	.frame-french {
+
+		width: 120%;
 	}
 }
 

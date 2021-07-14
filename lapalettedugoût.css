@@ -37,7 +37,12 @@ body {
 	display: flex;
 	align-items: center;
 	margin-left: 10px;
+	cursor: pointer;
+	text-decoration: none;
 }
+
+
+
 
 /* <<< SECTION >>> */
 
@@ -60,7 +65,7 @@ body {
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	width: 100%;
-	padding-left: 15px;
+	padding-left: 5px;
 	position: relative;
 	top: -25px;
 }
@@ -78,16 +83,75 @@ body {
 
 	border: 1px solid white;
 	background-color: white;
-	width: 95%;
+	width: 90%;
 	height: 90px;
 	border-radius: 25px;
 	margin-bottom: 15px;
+	margin-left: 15px;
 	margin-top: 10px;
 	box-shadow: 2px 2px 4px grey;
 	cursor: pointer;
 	animation: slideDown 5s;
+	opacity: 1;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
 }
 
+.frame-green {
+
+	background-color: #99E2D0;
+	width: 85px;
+	height: 102px;
+	border-radius: 25px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: -45px;
+	transition-duration: 2.5s;
+	position: absolute;
+	cursor: pointer;
+	
+}
+
+.frame-green:hover {
+
+	transform: translateX(-20px);
+	opacity: 1;
+	
+}
+
+@keyframes icone-spin {
+
+	0% {
+
+		transform: rotate(0deg);
+	}
+
+	100% {
+
+		transform: rotate(360deg);
+	}
+}
+
+
+.price {
+
+	font-weight: bold;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+
+.fa-check-circle {
+
+	font-size: 25px;
+	color: white;
+	margin-right: 20px;
+	animation: icone-spin 5s linear alternate;
+}
 
 h3 {
 
@@ -143,11 +207,6 @@ h3 {
 
 }
 
-.price {
-
-	font-weight: bold;
-	padding-right: 20px;
-}
 
 h2 {
 
@@ -210,7 +269,7 @@ h4 {
 
 .fa-heart {
 
-	padding-left: 35%;
+	padding-left: 25%;
 }
 
 }
@@ -236,7 +295,7 @@ h4 {
 
 .fa-heart {
 
-	padding-left: 55%;
+	padding-left: 45%;
 }
 
 
@@ -256,7 +315,7 @@ h4 {
 
 	.fa-heart {
 
-		padding-left: 65%;
+		padding-left: 55%;
 	} 
 }
 
@@ -277,12 +336,12 @@ h4 {
 	.frame-block {
 
 		display: flex;
-		justify-content: space-around;
+		flex-direction: column;
 	}
 
 	.frame-french {
 
-		width: 102%;
+		width: 75%;
 		height: 100px;
 		margin-bottom: 30px;
 		margin-right: 20px;
@@ -325,23 +384,28 @@ h4 {
 
 	.frame-french {
 
-		width: 110%;
+		width: 80%;
 	}
 }
 
-
-
-
 @media screen and (min-width: 1200px) {
+
+
+	.frame-block {
+
+		flex-direction: row;
+		justify-content: space-around;
+		margin-left: -25px;
+	}
 
 	.frame-french {
 
-		width: 120%;
+		width: 100%;
 	}
 
 	.fa-heart {
 
-		padding-left: 75%;
+		padding-left: 70%;
 	}
 }
 
@@ -349,7 +413,35 @@ h4 {
 
 	.fa-heart {
 
+		padding-left: 75%;
+	}
+
+	.frame-french {
+
+		width: 110%;
+	}
+
+	.frame-block {
+
+		margin-left: -65px;
+	}
+}
+
+@media screen and (min-width: 1650px) {
+
+	.fa-heart {
+
 		padding-left: 80%;
+	}
+
+	.frame-block {
+
+		margin-left: -110px
+	}
+
+	.frame-french {
+
+		width: 120%;
 	}
 }
 
