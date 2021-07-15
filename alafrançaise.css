@@ -70,14 +70,40 @@ body {
 	top: -25px;
 }
 
-.fa-heart {
+h2 {
 
 	display: flex;
-	align-items: flex-end;
-	cursor: pointer;
-	padding-left: 15%;
+	justify-content: space-between;
 }
 
+.icon {
+
+	fill: transparent;
+	stroke: black;
+	stroke-width: 20;
+	cursor: pointer;
+	position: relative;
+	margin-right: 20px;
+}
+
+svg {
+    overflow: visible;
+    width: 30px;
+  }
+
+
+
+.heart-main:hover {
+
+	background: -webkit-linear-gradient(0deg, rgba(187,100,220,1) 5%, 
+	rgba(147,86,220,1) 32%, rgba(195,103,220,1) 67%, rgba(255,125,219,1) 100%);
+	-webkit-background-clip: text;
+	stroke: none;
+	
+
+	
+
+}
 
 .frame-french {
 
@@ -93,33 +119,26 @@ body {
 	cursor: pointer;
 	animation: slideDown 5s;
 	opacity: 1;
+	display: flex;
+	justify-content: space-between;
 	position: relative;
 	overflow: hidden;
-	white-space: nowrap;
 	text-overflow: ellipsis;
-	
+
 }
+
 
 .frame-green {
 
 	background-color: #99E2D0;
 	width: 85px;
 	height: 102px;
-	border-radius: 25px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-top: -45px;
 	transition-duration: 2.5s;
-	position: absolute;
 	cursor: pointer;
-	
-}
 
-.frame-green:hover {
-
-	transform: translateX(-20px);
-	opacity: 1;
 	
 }
 
@@ -140,8 +159,8 @@ body {
 .price {
 
 	font-weight: bold;
-	padding-right: 20px;
-	cursor: pointer;
+	padding-right: 10px;
+	padding-left: 20px;
 }
 
 
@@ -150,7 +169,7 @@ body {
 	font-size: 25px;
 	color: white;
 	margin-right: 20px;
-	animation: icone-spin 5s linear alternate;
+	animation: icone-spin 5s linear forwards;
 }
 
 h3 {
