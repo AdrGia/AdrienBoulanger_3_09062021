@@ -84,6 +84,7 @@ h2 {
 	cursor: pointer;
 	position: relative;
 	margin-right: 20px;
+	position: relative;
 }
 
 svg {
@@ -91,18 +92,18 @@ svg {
     width: 30px;
   }
 
+.heart-background {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	stroke: none;
+}
 
 
 .heart-main:hover {
 
-	background: -webkit-linear-gradient(0deg, rgba(187,100,220,1) 5%, 
-	rgba(147,86,220,1) 32%, rgba(195,103,220,1) 67%, rgba(255,125,219,1) 100%);
-	-webkit-background-clip: text;
 	stroke: none;
-	
-
-	
-
 }
 
 .frame-french {
@@ -118,29 +119,77 @@ svg {
 	box-shadow: 2px 2px 4px grey;
 	cursor: pointer;
 	animation: slideDown 5s;
-	opacity: 1;
 	display: flex;
 	justify-content: space-between;
-	position: relative;
 	overflow: hidden;
-	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}
+
+
+.line {
+
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	font-size: 18px;
+
 
 }
 
+span {
+
+	font-weight: bold;
+}
+
+.price {
+
+	font-weight: bold;
+	padding-right: 10px;
+	padding-top: 45px;
+}
 
 .frame-green {
 
 	background-color: #99E2D0;
-	width: 85px;
+	width: 70px;
 	height: 102px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	transition-duration: 2.5s;
 	cursor: pointer;
-
-	
+	display: none;
 }
+
+.frame-french:hover .frame-green {
+
+	display: inline;
+	animation: arrow 5s;
+}
+
+@keyframes arrow {
+
+	from {
+
+		transform: translateX(70px);
+	}
+
+	to {
+
+		transform: translateX(0);
+	}
+
+}
+
+
+
+.fa-check-circle {
+
+	font-size: 25px;
+	color: white;
+	margin-right: 20px;
+	margin-top: 40px;
+	margin-left: 25px;
+	animation: icone-spin 3.5s linear forwards;
+}
+
 
 @keyframes icone-spin {
 
@@ -153,23 +202,6 @@ svg {
 
 		transform: rotate(360deg);
 	}
-}
-
-
-.price {
-
-	font-weight: bold;
-	padding-right: 10px;
-	padding-left: 20px;
-}
-
-
-.fa-check-circle {
-
-	font-size: 25px;
-	color: white;
-	margin-right: 20px;
-	animation: icone-spin 5s linear forwards;
 }
 
 h3 {
