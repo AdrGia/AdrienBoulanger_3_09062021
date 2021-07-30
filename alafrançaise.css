@@ -138,10 +138,17 @@ span {
 	font-weight: bold;
 }
 
+.price-green {
+
+	display: flex;
+	flex-direction: row;
+}
+
 .price {
 
 	font-weight: bold;
 	padding: 20px;
+	display: flex;
 	align-self: flex-end;
 }	
 
@@ -165,7 +172,7 @@ span {
 
 	from {
 
-		transform: translateX(70px);
+		transform: translateX(10px);
 	}
 
 	to {
