@@ -140,7 +140,7 @@ h2 {
     align-items: center;
     background-color: #99E2D0;
     width: 60px;
-    height: 75px;
+    height: 60px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     transform: translateX(60px);
@@ -262,7 +262,7 @@ h3 {
 	background: linear-gradient(150deg, rgba(147,86,220,1) 0%, rgba(154,88,220,1) 25%, 
 	rgba(164,92,220,1) 50%, rgba(205,107,220,1) 75%, rgba(255,125,219,1) 100%);
 	color: white;
-	width: 60%;
+	width: 50%;
 	border-radius: 25px;
 	margin-left: 80px;
 	padding-top: 15px;
