@@ -21,6 +21,10 @@ body {
 	font-size : 18px;
 }
 
+content {
+
+	animation: index 3s ease-in;
+}
 .loader {
 
 	display: flex;
@@ -87,13 +91,13 @@ body {
 
  @keyframes loader {
 
- 	from {
+ 	0% {
 
  		opacity: 1;
 
  	}
 
- 	to {
+ 	100% {
 
  		opacity: 0;
  		pointer-events: none;
@@ -101,22 +105,15 @@ body {
  	}
  }
 
-content {
-
-	animation: index 3s ease-in;
-	
-
-}
 
 @keyframes index {
 
-	from {
+	0% {
 
 		opacity: 0;
-
 	}
 
-	to {
+	100% {
 
 		opacity: 1;
 	}
