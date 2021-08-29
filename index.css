@@ -19,12 +19,10 @@ body {
 	font-family: 'robotoregular', Arial, sans-relief;
 	min-width: 250px;
 	font-size : 18px;
-}
-
-content {
-
 	animation: index 3s ease-in;
 }
+
+
 .loader {
 
 	display: flex;
@@ -91,13 +89,13 @@ content {
 
  @keyframes loader {
 
- 	0% {
+ 	from {
 
  		opacity: 1;
 
  	}
 
- 	100% {
+ 	to {
 
  		opacity: 0;
  		pointer-events: none;
@@ -125,9 +123,9 @@ h1 {
 	font-family: 'Shrikhand', cursive;
 	font-size: 50px;
 	background:-webkit-linear-gradient( left, #FF79DA, #C466DB, #9356DC);
-    background-clip:text;
-    -webkit-background-clip:text;
-    color:transparent;
+   background: -webkit-linear-gradient(0deg, rgba(187,100,220,1) 5%, rgba(147,86,220,1) 32%, rgba(195,103,220,1) 67%, rgba(255,125,219,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }	
 
 .logo img {
