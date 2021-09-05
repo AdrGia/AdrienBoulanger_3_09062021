@@ -37,6 +37,10 @@ body {
 	text-decoration: none;
 }
 
+.fa-arrow-left {
+
+	color: black;
+}
 
 
 
@@ -120,7 +124,7 @@ h2 {
 }
 
 .line-menu-green > span {
-    margin: 5px 0;
+    margin: 5px;
     align-self: flex-end;
 }   
 
@@ -308,8 +312,8 @@ h3 {
 
 .footer-index {
 
-	border: 2px solid #5b5b5b;
-	background-color: #5b5b5b;
+	border: 2px solid #353535;
+	background-color: #353535;
 	color: white;
 	width: 100.5%;
 	margin-top: -25px;
