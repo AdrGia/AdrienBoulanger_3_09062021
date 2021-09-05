@@ -254,12 +254,16 @@ span {
 h3 {
 
 	animation: slideDown 3s linear forwards;
+	border-bottom: 2px solid #99E2D0;
+	width:50px;
+	text-align:left;
+	margin-left:0; 
 }
 
 .button-order {
 
-	margin-top: 45px;
-	margin-bottom: 45px;
+	margin-top: 60px;
+	margin-bottom: 100px;
 	text-align: center;
 	background: rgb(147,86,220);
 	background: linear-gradient(150deg, rgba(147,86,220,1) 0%, rgba(154,88,220,1) 25%, 
@@ -361,7 +365,7 @@ h4 {
 
 	display: flex;
 	justify-content: center;
-	padding-left: 0 auto;
+	padding-left: 0;
 	font-size: 25px;
 	
 }
