@@ -441,11 +441,18 @@ h4 {
 	padding-top: 30px;
 	padding-left: 40px;
 	color: white;
+	text-decoration: none;
 }
 
 .link-footer {
 
 	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+
+.mail {
+
 	color: white;
 }
 
