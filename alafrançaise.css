@@ -255,6 +255,22 @@ h3 {
 
 }
 
+@keyframes slideDown {
+
+	0% {
+
+		transform: translateY(-50px);
+		opacity: 0;
+
+	}
+
+	100% {
+
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
 
 .button-order {
 
@@ -473,21 +489,5 @@ h4 {
 	.line-menu {
 
 		width: 600px;
-	}
-}
-
-@keyframes slideDown {
-
-	0% {
-
-		transform: translateY(-50px);
-		opacity: 0;
-
-	}
-
-	100% {
-
-		transform: translateY(0);
-		opacity: 1;
 	}
 }
